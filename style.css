@@ -102,6 +102,7 @@ header .logo {
 .selected-input{
   text-align: center;
   width: 30px;
+  border-radius: 10px;
   font-weight: bold;
   margin-left: 10px;
 }
