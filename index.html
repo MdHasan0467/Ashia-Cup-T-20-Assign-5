@@ -25,9 +25,174 @@
     </div>
   </header>
 
+<!-- Main Section -->
+  <main class="main-section">
+    <section class="container">
+    <div class="row pb-4">
+      <div class="col-lg-9 col-md-8 col-sm-6">
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 mt-3">
+
+  <div class="col">
+    <div class="card border-0">
+      <img src="image/Mashrafi-bin-murtaza.jpg" class="card-img-top img-fluid" >
+      <div class="card-body">
+        <h5 class="card-title text-white">Mashrafe Bin Mortaza</h5>
+        <p class="text-white">Bangladesh Cricket team member.</p>
+        <div class="card-text d-flex">
+            <h6 class="text-white">Match :220</h6>
+            <h6 class="ms-5 text-white">Wicket : 240</h6>
+         </div>
+        <button id="mashrafeeBtnClick" type="button" class="btn btn-primary clickBtn-1 bg-red w-100" onclick="myFunction('LI', 'Mashrafee Bin Mortaza' ,'.clickBtn-1')">SELECT</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col">
+    <div class="card border-0">
+      <img src="/image/Mushfiqur-Rahim.jpg" class="card-img-top img-fluid" >
+      <div class="card-body">
+        <h5 class="card-title text-white">Mushfiqur Rahim</h5>
+        <p class="text-white">Bangladesh Cricket team member.</p>
+        <div class="card-text d-flex text-white">
+            <h6>Match : 320</h6>
+            <h6 class="ms-5">Run : 7200</h6>
+        </div>
+        <button id="mushfiqBtnClick" type="button" class="btn btn-primary clickBtn-2 w-100" onclick="myFunction('LI', 'Mushfiqur Rahim' ,'.clickBtn-2')">SELECT</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <img src="/image/Tamim-Iqbal.jpg" class="card-img-top img-fluid " >
+      <div class="card-body text-white">
+        <h5 class="card-title">Tamim Iqbal</h5>
+        <p>Bangladesh Cricket team member.</p>
+        <div class="card-text d-flex text-white">
+             <h6>Match :325</h6>
+             <h6 class="ms-5">Run : 8100</h6>
+        </div>
+        <button id="tamimBtnClick" type="button" class="btn btn-primary clickBtn-3  w-100" onclick="myFunction('LI', 'Tamim Iqbal', '.clickBtn-3')">SELECT</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <img src="/image/Sakib-Al-Hasan.jpg" class="card-img-top img-fluid" >
+      <div class="card-body text-white">
+        <h5 class="card-title">Shakib Al Hasan</h5>
+        <p>Bangladesh Cricket team member.</p>
+        <div class="card-text d-flex text-white">
+             <h6>Match : 390</h6>
+             <h6 class="ms-5">Run : 9500</h6>
+        </div>
+        <button id="shakibBtnClick" type="button" class="btn btn-primary clickBtn-4 w-100" onclick="myFunction('LI', 'Shakib Al Hasan','.clickBtn-4')">SELECT</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <img src="/image/sabbir.jpg" class="card-img-top img-fluid" >
+      <div class="card-body text-white">
+        <h5 class="card-title">Sabbir Rahman</h5>
+        <p>Bangladesh Cricket team member.</p>
+        <div class="card-text d-flex text-white">
+             <h6>Match :150</h6>
+             <h6 class="ms-5">Run : 2500</h6>
+        </div>
+        <button id="sabbirBtnClick" type="button" class="btn btn-primary clickBtn-5  w-100" onclick="myFunction('LI', 'Sabbir Rahman','.clickBtn-5')">SELECT</button>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card border-0">
+      <img src="/image/Rubel-Hossain.jpg" class="card-img-top img-fluid" >
+      <div class="card-body text-white">
+        <h5 class="card-title">Rubel Hossain</h5>
+        <p>Bangladesh Cricket team member.</p>
+        <div class="card-text d-flex text-white">
+             <h6>Match :180</h6>
+             <h6 class="ms-5">Wicket : 215</h6>
+        </div>
+        <button id="rubelBtnClick" type="button" class="btn btn-primary clickBtn-6 w-100 " onclick="myFunction('LI', 'Rubel Hossain','.clickBtn-6')">SELECT</button>
+      </div>
+    </div>
+  </div>
+<!-- ========== -->
+</div>
+</div>
+<!-- ========== -->
+<div class="col-lg-3 col-md-4 col-sm-6 mt-5">
+ <div class="row">
+<!-- Selected Top Five -->
+  <div class="col-12">
+    <div class="card border-0">    
+      <div class="card-body">
+        <h5 class="card-title d-flex justify-content-center selected ">Selected Top Five</h5>
+  <hr>
+  <!-- Ol list -->
+        <ol id="myList" class="fw-bold text-white"></ol>
+      </div>
+    </div>
+  </div>
+<!-- ========== -->
+<!-- Budget Section -->
+  <div class="col-12 mt-3">
+    <div class="card border-0">    
+      <div class="card-body">
+           <h5 class="card-title text-black d-flex justify-content-center selected">Budget</h5>
+  <hr>
+        <div class="d-flex player-price">
+             <h6 class=" text-white">Per Player :</h6>
+             <input id="perPlayerCost"  type="text">
+             <input id="playerNumber" type="text" class="d-none">
+        </div>
+  <!-- calculate button -->
+       <div id="calculate" class="btn border-0 w-100 mt-3 bg-primary text-white">Calculate</div>
+
+       <div class="d-flex mt-4 text-white">
+            <h6>Player Expenses :</h6>
+            <h6 class="ms-5 text-primary">$ <span id="playerExpenses">00</span></h6>
+       </div>
+       <div class="d-flex managing-cost mt-3 ">
+            <h6 class="text-white ">Manager </h6>
+            <input id="mangerExpense" type="text">
+        </div>
+        <div class="d-flex coach-cost mt-3">
+             <h6 class=" text-white">Coach </h6>
+             <input id="coachExpense" type="text">
+        </div> 
+  <!-- Total calculate button -->
+        <div class="btn border-0 w-100 mt-3 bg-primary text-white" id="totalCalculate">Calculate Total</div>
+        <div class="d-flex mt-4 text-white">
+             <h6>Total : </h6>
+             <h6 class="total-cost text-primary">$ <span id="totalCost">00</span></h6>
+       </div>
+        </div>
+      </div>
+    </div>
+<!-- ========== -->
+  </div>
+  </div>
+  </div>
+  </section>
+    </main> 
+
+<!-- foooter Section -->
+    <footer class="bg-black">
+      <h6 class="d-flex justify-content-center pt-5">Copyright @ 2022 All Rights Reserved.</h6>
+
+      <div class="social-media d-flex justify-content-center mt-3 me-5">
+        <a href=""><i class="fa-brands fa-facebook"></i></a>
+       <a href=""> <i class="fa-brands fa-twitter"></i></a>
+        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        <a href=""><i class="fa-brands fa-github"></i></a>
+      </div>
+    </footer>
+  
 
   
-  <script src="Apps.js"></script> 
+  <script src="custom.js"></script> 
   <!-- Bootstrap JS Link -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
