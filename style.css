@@ -1,0 +1,11 @@
+header {
+  height: 70vh;
+  position: relative;
+}
+
+header .logo {
+  position: absolute;
+  top: 5%;
+  right: 5%;
+  width: 70px;
+}
