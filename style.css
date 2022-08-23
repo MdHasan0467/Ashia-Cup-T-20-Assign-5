@@ -99,6 +99,10 @@ header .logo {
   border-radius: 10px;
 
 }
+.selected-input{
+  width: 50px;
+  font-weight: bold;
+}
 
 hr:nth-child(1),
 hr:nth-child(2) {
@@ -166,6 +170,9 @@ hr:nth-child(2) {
   border-radius: 6px;
   margin-left: 30px;
   padding-left: 10px;
+}
+#playerNumber{
+  outline: none;
 }
 
 .coach-cost input {
