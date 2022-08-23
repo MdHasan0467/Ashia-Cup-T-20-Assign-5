@@ -47,3 +47,119 @@ header .logo {
   border: none;
   outline: none;
 }
+
+.left-side {
+  box-shadow: 5px 0px 2px #000;
+}
+
+.right-side {
+  transition: 0.5s;
+}
+
+.right-side:hover {
+  box-shadow: 5px 0px 2px #000;
+  margin-top: -10px;
+}
+
+.selected {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+
+hr:nth-child(1),
+hr:nth-child(2) {
+  height: 3px;
+  animation: moving 3s infinite ease-in-out;
+  background: #777;
+}
+
+@keyframes moving {
+  0% {
+    width: 0;
+  }
+
+  10% {
+    width: 10%;
+  }
+
+  25% {
+    width: 25%;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+
+#myList {
+  height: 130px;
+}
+
+.player-price input {
+  margin-right: 15px;
+}
+
+
+.managing-cost input,
+.coach-cost input {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+
+.player-price input:focus,
+.managing-cost input:focus,
+.coach-cost input:focus {
+  outline: none;
+}
+
+.managing-cost input {
+  margin-left: 50px;
+}
+
+#perPlayerCost {
+  width: 100px;
+  height: 30px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 6px;
+  margin-left: 30px;
+  padding-left: 10px;
+}
+
+.coach-cost input {
+  margin-left: 70px;
+}
+
+.total-cost {
+  margin-left: 130px;
+}
+
+.card-text {
+  color: #777;
+}
+
+footer {
+  color: #ddd;
+  height: 20vh;
+  width: 100%;
+  background: #000;
+}
+
+.social-media {
+  margin-left: 50px;
+}
+
+.social-media i {
+  font-size: 25px;
+  margin-left: 20px;
+}
